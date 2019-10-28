@@ -1,0 +1,22 @@
+*** In order to hook 64 and 32 bit processes, you have to have 2 dlls (1 for 32 bit, and 1 for 64 bit processors)
+
+
+*** If we navigate to Detours directory and launch:
+
+>nmake
+
+it will build the project and the dlls with 32-bit environment (only 32-bit applications can be intercepted)
+
+*** To build dlls with 64-bit environment, use the following command on visual studio command prompt before building the project 
+(becareful of the Visual Studio version type and path)
+
+>SET DETOURS_TARGET_PROCESSOR=X64
+>CALL "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+>NMAKE
+
+
+*** Now, if we navigate to the Detour directory and write:
+
+>nmake
+
+It will build and inject simple64.dll inside the target process.

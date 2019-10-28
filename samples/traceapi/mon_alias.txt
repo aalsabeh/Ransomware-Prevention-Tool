@@ -1,0 +1,40 @@
+FindWindowA	FindWindowExA	FindWindowExW	FindWindowW																										
+GetModuleFileNameW																													
+GetEnvironmentStrings	GetEnvironmentStringsW																												
+FindWindowA	FindWindowExA	FindWindowExW	FindWindowW																										
+GetLocalTime	GetSystemTimeAsFileTime	GetSystemTimes	GetTimeZoneInformationForYear	GetSystemTime	GetTimeZoneInformation	GetSystemTimeAdjustment	GetDynamicTimeZoneInformation																																															
+IsWindowsXPOrGreater	IsWindowsXPSP1OrGreater	IsWindowsXPSP2OrGreater	IsWindowsXPSP3OrGreater	IsWindowsVistaOrGreater	IsWindowsVistaSP1OrGreater	IsWindowsVistaSP2OrGreater	IsWindows7OrGreater	IsWindows7SP1OrGreater	IsWindows8OrGreater	IsWindows8Point1OrGreater	IsWindows10OrGreater	IsWindowsServer	IsWindowsVersionOrGreater																
+GetVersion	GetVersionExA	GetVersionExW																											
+GetComputerNameA	GetComputerNameW	GetComputerNameExW	GetComputerNameExA																										
+GetWindowsDirectoryA	GetWindowsDirectoryW																												
+EnumPrintersA	EnumPrintersW	EnumPrinterDataEx	EnumPrintProcessorDatatypesA	EnumPrinterDrivers	EnumPrinterKey	EnumPrinterDataEx	EnumPrinterData	EnumPrinters	EnumPrintProcessorDatatypesA	EnumPrintProcessors	EnumPrintProcessorDatatypes																		
+GetDC	GetDCEx	GetDCOrgEx	ReleaseDC																										
+GetSystemDirectoryA	GetSystemDirectoryW																												
+EnumServicesStatusA	EnumServicesStatusW	EnumServicesStatusExA	EnumServicesStatusExW																										
+GetKeyboardLayoutNameA	GetKeyboardLayoutNameW	GetKeyState																											
+GetCurrentDirectoryA	GetCurrentDirectoryW																												
+GetEnvironmentVariableA	GetEnvironmentVariableW																												
+CreateWindowExA	CreateWindowExW	GetDesktopWindow	GetWindowRect	IsWindowVisible	GetForegroundWindow	GetWindowInfo	GetWindowModuleFileNameW	GetWindowModuleFileNameA	EnumWindows	IsWindowVisible																																																	
+GetDiskFreeSpaceW	GetDiskFreeSpaceExA	GetDiskFreeSpaceExW	SHGetDiskFreeSpaceExW	GetDiskFreeSpaceA	SHGetDiskFreeSpaceExA																								
+GetUserDefaultUILanguage	GetThreadPreferredUILanguages	GetUILanguageInfo	GetThreadUILanguage	GetSystemDefaultUILanguage	GetUserPreferredUILanguages	GetSystemPreferredUILanguages	GetProcessPreferredUILanguages	SetProcessPreferredUILanguages		GetUserDefaultLangID																			
+GetMonitorInfoA	MonitorFromPoint	MonitorFromRect	EnumMonitors	MonitorFromWindow	EnumDisplayMonitors																								
+GetKeyboardLayout	GetKeyboardLayoutList																												
+SetNamedPipeHandleState	WaitNamedPipeW																												
+GlobalMemoryStatusEx																													
+GetSystemWindowsDirectoryW	GetSystemWindowsDirectoryA	GetSystemWow64DirectoryW	GetSystemWow64DirectoryA																										
+GetUserNameW	GetUerNameA																												
+SHGetFolderPathW	SHGetFolderPathAndSubDirA																												
+GetProcessHeaps	GetProcessHeap																																													
+IsDebuggerPresent																													
+OutputDebugStringA																													
+GetNativeSystemInfo	GetSystemRegistryQuota	GetSystemInfo																											
+GetDeviceCaps																													
+GetCurrentProcessId																																																									
+GetFirmwareEnvironmentVariableA	GetFirmwareType	GetFirmwareEnvironmentVariableW																											
+EnumPorts																													
+GetTickCount64	GetTickCount																												
+GetProductInfo
+RegCreateKeyExA	RegCreateKeyExW	RegDeleteKeyA	RegDeleteKeyW	RegDeleteValueA	RegDeleteValueW	RegEnumKeyExA	RegEnumKeyExW	RegEnumValueA	RegEnumValueW	RegQueryInfoKeyW	RegOpenKeyExW	RegQueryValueExA	RegOpenKeyExA	RegQueryInfoKeyA	RegQueryValueExW	RegSetValueExA	RegSetValueExW	RegOpenKeyTransactedA	RegGetValueA	RegQueryMultipleValuesW	RegOpenKeyTransactedW	RegQueryMultipleValuesA	RegLoadKeyW	RegLoadKeyA	RegGetValueW																																								
+CloseHandle	CreateFileTransactedA	CopyFileExW	CreateDirectoryExW	CreateDirectoryW	CreateProcessW	DeleteFileA	DeleteFileW	FindFirstFileExA	FindFirstFileExW	GetFileAttributesW	LoadLibraryExW	MoveFileA	MoveFileExA	MoveFileExW	MoveFileW	OpenFile	WriteFile	_lcreat	_lopen	FlushFileBuffers	CreateFileW	SHGetFileInfoA	SHGetFileInfoW	CreateFileTransactedW	CreateFileA	GetFileMUIInfo	GetFileMUIPath	CreateFile2																														
+LocalFileTimeToFileTime	GetSystemTimePreciseAsFileTime	GetFileTime	CompareFileTime	
+																													
